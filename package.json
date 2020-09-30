@@ -1,0 +1,23 @@
+{
+  "name": "Cloud-hosted-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adityapandya7979/Cloud-hosted-Bot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adityapandya7979/Cloud-hosted-Bot/issues"
+  },
+  "homepage": "https://github.com/adityapandya7979/Cloud-hosted-Bot#readme",
+  "dependencies": {
+    "discord.js": "^12.3.1"
+  }
+}
