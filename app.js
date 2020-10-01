@@ -35,6 +35,13 @@ bot.on('message', async (msg) => {
   }
 
   if (command === "clear") {
+    //verify that user has moderation role
+    if(!msg.member.roles.cache.has('756222046970839140')) {
+      msg.reply('you dont have permission to delete messages');
+      // if user doesnt have the role, we return without kicking the user
+      return
+    }
+
     //default deletes message itself plus previous
     let num = 2;
     
@@ -92,6 +99,10 @@ bot.on('message', async (msg) => {
         msg.reply(`${user.tag} was kicked from the server`)
       })
     }
+
+    if(msg.content === 'commands'){
+      msg.reply('The commands for this bot are: !ego, !joke, !commands. !clear and !kick are mod commands')
+    }
   }
 
 
@@ -99,7 +110,7 @@ bot.on('message', async (msg) => {
 
 
 //set is outside our event listener to prevent wasted processing re-creating it on every message
-let set = new Set(['werpes', 'moonga'])
+let set = new Set(['fuck', 'madarchod' , 'chodina', 'bullshit' , 'motherfucker', 'nigga' , 'bhosdina'])
 bot.on('message', (msg) => {
   //if author of message is a bot, return. This prevents potential infinite loops
   if(msg.author.bot) {
