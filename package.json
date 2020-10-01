@@ -1,7 +1,6 @@
 {
-  "name": "Cloud-hosted-bot",
+  "name": "Cloud-hosted-Bot",
   "version": "1.0.0",
-  "description": "",
   "main": "app.js",
   "scripts": {
     "start": "node app.js"
@@ -19,5 +18,7 @@
   "homepage": "https://github.com/adityapandya7979/Cloud-hosted-Bot#readme",
   "dependencies": {
     "discord.js": "^12.3.1"
-  }
+  },
+  "devDependencies": {},
+  "description": ""
 }

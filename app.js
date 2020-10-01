@@ -101,7 +101,7 @@ bot.on('message', async (msg) => {
     }
   }
 
-  if(msg.content === 'commands'){
+  if(command === 'commands'){
     msg.reply('The commands for this bot are: !ego, !joke, !commands. !clear and !kick are mod commands')
   }
   
