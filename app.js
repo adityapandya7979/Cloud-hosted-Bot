@@ -99,13 +99,12 @@ bot.on('message', async (msg) => {
         msg.reply(`${user.tag} was kicked from the server`)
       })
     }
-
-    if(msg.content === 'commands'){
-      msg.reply('The commands for this bot are: !ego, !joke, !commands. !clear and !kick are mod commands')
-    }
   }
 
-
+  if(msg.content === 'commands'){
+    msg.reply('The commands for this bot are: !ego, !joke, !commands. !clear and !kick are mod commands')
+  }
+  
 })
 
 
