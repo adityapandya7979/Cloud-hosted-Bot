@@ -1,5 +1,4 @@
-/*
-This was my first discor bot code which is now not required as I have other bots
+//This was my first discor bot code which is now not required as I have other bots
 
 const Discord = require("discord.js");
 const fetch = require('node-fetch');
@@ -132,4 +131,4 @@ bot.on('message', (msg) => {
     }
     
   }
-})*/
+})
