@@ -1,3 +1,6 @@
+/*
+This was my first discor bot code which is now not required as I have other bots
+
 const Discord = require("discord.js");
 const fetch = require('node-fetch');
 
@@ -57,7 +60,7 @@ bot.on('message', async (msg) => {
   } 
 
   
-   if(command === 'joke') {
+  if(command === 'joke') {
     //async API call using async/await syntax
     let getJoke = async () => {
       //make API call
@@ -129,4 +132,4 @@ bot.on('message', (msg) => {
     }
     
   }
-})
+})*/
